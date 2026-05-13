@@ -1,4 +1,4 @@
-package com.javanauta.bffagendadortarefas;
+package com.javanauta.bffagendadortarefas.business;
 
 
 import com.javanauta.bffagendadortarefas.business.dto.in.TarefasDTORequest;

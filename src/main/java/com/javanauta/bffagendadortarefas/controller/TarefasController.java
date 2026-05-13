@@ -1,7 +1,6 @@
 package com.javanauta.bffagendadortarefas.controller;
 
 
-import com.javanauta.bffagendadortarefas.TarefaService;
 import com.javanauta.bffagendadortarefas.business.dto.in.TarefasDTORequest;
 import com.javanauta.bffagendadortarefas.business.dto.out.TarefasDTOResponse;
 import com.javanauta.bffagendadortarefas.infrastructure.client.enums.StatusNotificacaoEnum;
@@ -24,7 +23,7 @@ import java.util.List;
 @Tag(name = "Tarefas", description = "Cadastra tarefa do usuario")
 @SecurityRequirement(name = SecurityConfig.SECURITY_SCHEME)
 public class TarefasController {
-    private final TarefaService tarefaService;
+    private final com.javanauta.bffagendadortarefas.business.TarefaService tarefaService;
 
     @PostMapping
     @Operation(summary = "Salvar tarefas", description = "Cria uma nova tarefa")

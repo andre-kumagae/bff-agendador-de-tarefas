@@ -13,6 +13,6 @@ import java.time.LocalDateTime;
 public class TarefasDTORequest {
     private String nomeTarefa;
     private String descricao;;
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss", timezone = "America/Sao_Paulo")
     private LocalDateTime dataEvento;
 }

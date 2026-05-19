@@ -1,11 +1,8 @@
-package com.javanauta.bffagendadortarefas;
+package com.javanauta.bffagendadortarefas.business;
 
-import com.javanauta.bffagendadortarefas.business.EmailService;
-import com.javanauta.bffagendadortarefas.business.TarefaService;
-import com.javanauta.bffagendadortarefas.business.UsuarioService;
 import com.javanauta.bffagendadortarefas.business.dto.in.LoginRequestDTO;
 import com.javanauta.bffagendadortarefas.business.dto.out.TarefasDTOResponse;
-import com.javanauta.bffagendadortarefas.infrastructure.client.enums.StatusNotificacaoEnum;
+import com.javanauta.bffagendadortarefas.business.enums.StatusNotificacaoEnum;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
